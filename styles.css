@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #1E90FF;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 10%;
+    text-align: center;
+    background: white;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 300px;
+    background: #F0F8FF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 5%;
+    border-radius: 8px;
+}
+
+/* Contact Section Styling */
+.contact {
+    max-width: 100%px; /* Limit form width */
+    margin: 10px auto; /* Center form */
+    padding: 10px;
+    background: #f9f9f9; /* Light grey background */
+    border-radius: px; /* Rounded edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+}
+
+/* Input Fields */
+.contact form input,
+.contact form textarea {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* Resize Message Box */
+.contact form textarea {
+    height: 150px; /* Adjust height */
+    resize: vertical; /* Allow manual resizing */
+}
+
+/* Submit Button */
+.contact form button {
+    background-color: #f7e926; /* Blue color */
+    color: rgb(7, 3, 3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact form button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+
+/* Footer */
+
+
+footer {
+    text-align: center;
+    padding: 10px; /* Reduce padding */
+    background-color: #222;
+    color: white;
+    font-size: 14px; /* Reduce font size */
+}
+.wrapper {
+    flex: 1; /* Pushes the footer down */
+}
